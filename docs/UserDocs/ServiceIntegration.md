@@ -25,6 +25,6 @@ Here is a screenshot of the example dashboard on a live system:
 
 When [importing](https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard) this dashboard you need to change `server.local` to the network name of your samba server.
 
-Here is a screenshot to import dashboard with this example json file `SambaService.json`, and you need to change the `prefix` name to the network name of your samba server, like `localhost:9922`.
+Here is a screenshot to import dashboard with this example json file `SambaService.json`, and you need to replace the `prefix` name `server.local` with the network name of your samba server, like `localhost:9922`.
 
 ![Screenshot of dashboard for the samba service](./../assets/import_dashboard_with_json.png)
